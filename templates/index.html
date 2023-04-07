@@ -1,0 +1,510 @@
+{% extends 'base.html' %}
+{% block header %}
+{{ super() }} 
+{% endblock %}
+<!--slider Section Start Here -->
+{% block content %}
+{{ super() }}
+<section id="slider">
+    <div class="img-slider">
+        <ul class="top-banner">
+            <li><img src="{{url_for('static', filename='assets/img/banner-img-1.jpg')}}" alt="#" />
+            </li>
+            <li><img src="{{url_for('static', filename='assets/img/banner-img-2.jpg')}}" alt="#" />
+            </li>
+            <li><img src="{{url_for('static', filename='assets/img/banner-img-3.jpg')}}" alt="#" />
+            </li>
+        </ul>
+    </div>
+    <div class="detail-content">
+        <div class="container">
+            <div class="detail">
+                <div class="top-row">
+                    <strong>FEATURED PROJECT1</strong>
+                    <strong>CONSTRUCTION PROJECT2</strong>
+                    <strong>MANAGEMENT PROJECT3</strong>
+
+                    <div class="direction-arrrow">
+                        <a href="javascript:;" class="prv"></a>
+                        <a href="javascript:;" class="next"></a>
+                    </div>
+
+                </div>
+
+                <ul class="bottom-sec" id="bottom-sec">
+                    <li class="inner-bottom-sec">
+                        <h2>Construction Management1</h2>
+                        <p>
+                            We offer the most complete house renovating services in the country,
+                            from kitchen design to bathroom remodeling.
+                        </p>
+                        <a href="projects-details.html">VIEW PROJECT-1</a>
+                    </li>
+                    <li class="inner-bottom-sec">
+                        <h2>Construction Management2</h2>
+                        <p>
+                            We offer the most complete house renovating services in the country,
+                            from kitchen design to bathroom remodeling.
+                        </p>
+                        <a href="projects-details.html">VIEW PROJECT-2</a>
+                    </li>
+                    <li class="inner-bottom-sec">
+                        <h2>Construction Management3</h2>
+                        <p>
+                            We offer the most complete house renovating services in the country,
+                            from kitchen design to bathroom remodeling.
+                        </p>
+                        <a href="projects-details.html">VIEW PROJECT-3</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!--slider Section End Here -->
+<!--content Section Start Here -->
+<div id="content">
+
+    <!--Info Section Start Here -->
+    <div class="info-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 about-us">
+                    <header class="section-header">
+                        <h2>WHO WE ARE? <i></i></h2>
+                        <strong>OUR EXPERTS DELIVER INNOVATIVE, EFFICIENT &amp; VALUE-DRIVEN SOLUTIONS FOR CUSTOMERS IN ENERGY.</strong>
+                    </header>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit, nulla quis fermentum hendrerit, nisi diam viverra metus, porta semper est ipsum et sapien.feugiat viverra diam.felis tortor, euismod ac tortor ut.
+                    </p>
+                    <ul class="our-quality clearfix">
+                        <li class="active">
+                            <i class="check-svg "><img src="{{url_for('static', filename='assets/svg/09.svg')}}" alt="" class="svg" /></i>
+                            <strong><span>WE ARE</span> PASSIONATE</strong>
+                        </li>
+                        <li>
+                            <i class="check-svg"><img src="{{url_for('static', filename='assets/svg/09.svg')}}" alt="" class="svg" /></i>
+                            <strong> <span> HONEST</span> &amp; DEPENDABLE</strong>
+                        </li>
+                        <li>
+                            <i class="check-svg"><img src="{{url_for('static', filename='assets/svg/09.svg')}}" alt="" class="svg" /></i>
+                            <strong><span>ALWAYS</span> IMPROVING</strong>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-12 col-sm-6 our-images">
+                    <ul>
+                        <li class="zoom">
+                            <figure>
+                                <a href="#"> <img src="{{url_for('static', filename='assets/img/about-img-1.png')}}" alt="" /></a>
+                            </figure>
+                        </li>
+                        <li class="zoom">
+                            <figure>
+                                <a href="#"><img src="{{url_for('static', filename='assets/img/about-img-2.png')}}" alt="" /></a>
+                            </figure>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li class="zoom">
+                            <figure>
+                                <a href="#"><img src="{{url_for('static', filename='assets/img/about-img-3.png')}}" alt="" /></a>
+                            </figure>
+                        </li>
+                        <li class="zoom">
+                            <figure>
+                                <a href="#"><img src="{{url_for('static', filename='assets/img/about-img-4.png')}}" alt="" /></a>
+                            </figure>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Info Section End Here -->
+
+    <!--Service Section Start Here -->
+    <div class="service-container">
+        <div class="container">
+            <div class="row">
+
+                <div class="left-detail animate-effect">
+                    <div id="slide-items" class="flexslider">
+                        <ul class="slides">
+                            <li>
+                                <h2>Condo Remodeling <i></i></h2>
+                                <strong>WE OFFER AN ALL ROUND CONDO REMODELLING SERVICES</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit,
+                                    nulla quis fermentum hendrerit, nisi diam viverra metus, porta semper est ipsum et sapien.
+                                    feugiat viverra diam.felis tortor, euismod ac tortor ut.
+                                </p>
+                                <a href="#" class="quote">GET A QUOTE</a>
+                            </li>
+
+                            <li>
+                                <h2>Condo Remodeling 2 <i></i></h2>
+                                <strong>WE OFFER AN ALL ROUND CONDO REMODELLING SERVICES</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit,
+                                    nulla quis fermentum hendrerit, nisi diam viverra metus, porta semper est ipsum et sapien.
+                                    feugiat viverra diam.felis tortor, euismod ac tortor ut.
+                                </p>
+                                <a href="#" class="quote">GET A QUOTE</a>
+                            </li>
+
+                            <li>
+                                <h2>Condo Remodeling <i></i></h2>
+                                <strong>WE OFFER AN ALL ROUND CONDO REMODELLING SERVICES</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit,
+                                    nulla quis fermentum hendrerit, nisi diam viverra metus, porta semper est ipsum et sapien.
+                                    feugiat viverra diam.felis tortor, euismod ac tortor ut.
+                                </p>
+                                <a href="#" class="quote">GET A QUOTE</a>
+                            </li>
+                            <li>
+                                <h2>Condo Remodeling <i></i></h2>
+                                <strong>WE OFFER AN ALL ROUND CONDO REMODELLING SERVICES</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit,
+                                    nulla quis fermentum hendrerit, nisi diam viverra metus, porta semper est ipsum et sapien.
+                                    feugiat viverra diam.felis tortor, euismod ac tortor ut.
+                                </p>
+                                <a href="#" class="quote">GET A QUOTE</a>
+                            </li>
+                            <li>
+                                <h2>Condo Remodeling <i></i></h2>
+                                <strong>WE OFFER AN ALL ROUND CONDO REMODELLING SERVICES</strong>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nec erat erat. Integer blandit,
+                                    nulla quis fermentum hendrerit, nisi diam viverra metus, porta semper est ipsum et sapien.
+                                    feugiat viverra diam.felis tortor, euismod ac tortor ut.
+                                </p>
+                                <a href="#" class="quote">GET A QUOTE</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="right-detail animate-effect">
+                    <h2> WHAT <strong>WE DO</strong><span>SERVICES</span></h2>
+                </div>
+
+                <div class="col-xs-12">
+                    <div id="carousel" class="flexslider">
+                        <ul class="our-service slides animate-effect clearfix">
+                            <li class="zoom">
+                                <a href="#"> <em class="fa fa-caret-up"></em>
+                                <figure class="fade-effect">
+                                    <img src="{{url_for('static', filename='assets/img/image-1.jpg')}}" alt="" />
+                                </figure> <strong> <i></i>design<span>and build</span> </strong> </a>
+                            </li>
+
+                            <li class="zoom">
+                                <a href="#"> <em class="fa fa-caret-up"></em>
+                                <figure class="fade-effect">
+                                    <img src="{{url_for('static', filename='assets/img/image-2.jpg')}}" alt="" />
+                                </figure> <strong> <i></i>condo<span>remodeling</span> </strong> </a>
+
+                            </li>
+
+                            <li class="zoom">
+                                <a href="#"> <em class="fa fa-caret-up"></em>
+                                <figure class="fade-effect">
+                                    <img src="{{url_for('static', filename='assets/img/image-3.jpg')}}" alt="" />
+                                </figure> <strong> <i></i>construction <span>management</span> </strong> </a>
+
+                            </li>
+
+                            <li class="zoom">
+                                <a href="#"> <em class="fa fa-caret-up"></em>
+                                <figure class="fade-effect">
+                                    <img src="{{url_for('static', filename='assets/img/image-4.jpg')}}" alt="" />
+                                </figure> <strong> <i></i>tiling<span>and painting</span> </strong> </a>
+
+                            </li>
+
+                            <li class="zoom">
+                                <a href="#"> <em class="fa fa-caret-up"></em>
+                                <figure class="fade-effect">
+                                    <img src="{{url_for('static', filename='assets/img/image-5.jpg')}}" alt="" />
+                                </figure> <strong> <i></i>kitchen <span>remodeling</span> </strong> </a>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--Service Section End Here -->
+
+    <!--project Section Start Here -->
+    <div class="project-container">
+        <div class="container">
+            <div class="row">
+                <a href="#" class="our-project"> <span>OUR <strong>PROJECTS</strong> <em></em> </span> </a>
+                <div class="col-xs-12">
+                    <div class="detai-box animate-effect">
+                        <h2><span>MANCHESTER</span> CENTRAL DELIVERY OFFICE</h2>
+                        <strong>WHAT WE HAVE DONE</strong>
+                        <ul class="clearfix">
+                            <li>
+                                <a href="#"><i class="icon-design fa fa-pencil"></i> <span>DESIGN</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="icon-manegement fa fa-asterisk"></i> <span>MANAGEMENT</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="icon-delivery fa fa-ship"></i> <span>DELIVERY</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="img-box fade-effect">
+                        <a href="#"><img src="{{url_for('static', filename='assets/img/office-img-1.jpg')}}" alt="" /></a>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 odd">
+                    <div class="detai-box animate-effect">
+                        <h2><span>MANCHESTER</span> CENTRAL DELIVERY OFFICE</h2>
+                        <strong>WHAT WE HAVE DONE</strong>
+                        <ul class="clearfix">
+                            <li>
+                                <a href="#"><i class="icon-design fa fa-pencil"></i> <span>DESIGN</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="icon-manegement fa fa-asterisk"></i> <span>MANAGEMENT</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="icon-delivery fa fa-ship"></i> <span>DELIVERY</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="img-box fade-effect">
+                        <ul class="office-slider">
+                            <li>
+                                <a href="#"><img src="{{url_for('static', filename='assets/img/office-img-1.jpg')}}" alt="" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="{{url_for('static', filename='assets/img/office-img-2.jpg')}}" alt="" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="{{url_for('static', filename='assets/img/office-img-3.jpg')}}" alt="" /></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="{{url_for('static', filename='assets/img/office-img-4.jpg')}}" alt="" /></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--project Section End Here -->
+
+    <!--testimonial-container Start Here -->
+    <div class="testimonial-container">
+        <div class="container">
+            <i class="corve"><img src="{{url_for('static', filename='assets/svg/corve.svg')}}" alt="" class="svg"/></i>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 tag-bg animate-effect">
+                    <div class="customer-says">
+                        <h2><span>WHAT OUR</span> CUSTOMER SAYS <i></i></h2>
+                        <strong>WE OFFER AN ALL ROUND CONDO REMODELLING</strong>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-6">
+                    <div class="testimonial-box">
+                        <div class="view-list animate-effect">
+                            <div class="flexslider" id="testimonial-silder">
+                                <ul class="slides">
+                                    <li>
+                                        <blockquote>
+                                            <i class="fa fa-quote-right"></i>
+                                            <p>
+                                                01 Our construction managment professionals organize, lead and manage the people, materials and processes of construction utilizing the latest technologies within the industry.
+                                            </p>
+                                            <footer>
+                                                LENNIE LAZENBY 01
+                                            </footer>
+                                        </blockquote>
+                                    </li>
+                                    <li>
+                                        <blockquote>
+                                            <i class="fa fa-quote-right"></i>
+                                            <p>
+                                                02 Our construction managment professionals organize, lead and manage the people, materials and processes of construction utilizing the latest technologies within the industry.
+                                            </p>
+                                            <footer>
+                                                LENNIE LAZENBY 02
+                                            </footer>
+                                        </blockquote>
+                                    </li>
+
+                                    <li>
+                                        <blockquote>
+                                            <i class="fa fa-quote-right"></i>
+                                            <p>
+                                                03 Our construction managment professionals organize, lead and manage the people, materials and processes of construction utilizing the latest technologies within the industry.
+                                            </p>
+                                            <footer>
+                                                LENNIE LAZENBY 03
+                                            </footer>
+                                        </blockquote>
+                                    </li>
+
+                                    <li>
+                                        <blockquote>
+                                            <i class="fa fa-quote-right"></i>
+                                            <p>
+                                                04 Our construction managment professionals organize, lead and manage the people, materials and processes of construction utilizing the latest technologies within the industry.
+                                            </p>
+                                            <footer>
+                                                LENNIE LAZENBY 04
+                                            </footer>
+                                        </blockquote>
+                                    </li>
+
+                                    <li>
+                                        <blockquote>
+                                            <i class="fa fa-quote-right"></i>
+                                            <p>
+                                                05 Our construction managment professionals organize, lead and manage the people, materials and processes of construction utilizing the latest technologies within the industry.
+                                            </p>
+                                            <footer>
+                                                LENNIE LAZENBY 05
+                                            </footer>
+                                        </blockquote>
+                                    </li>
+                                    <li>
+                                        <blockquote>
+                                            <i class="fa fa-quote-right"></i>
+                                            <p>
+                                                06 Our construction managment professionals organize, lead and manage the people, materials and processes of construction utilizing the latest technologies within the industry.
+                                            </p>
+                                            <footer>
+                                                LENNIE LAZENBY 06
+                                            </footer>
+                                        </blockquote>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="thumb-box animate-effect">
+                            <div class="flexsilder" id="testimonial-carousel">
+                                <ul class="slides">
+                                    <li>
+                                        <a href="#"><img src="{{url_for('static', filename='assets/img/testimonial-img-4.png')}}" alt="" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="{{url_for('static', filename='assets/img/testimonial-img-3.png')}}" alt="" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="{{url_for('static', filename='assets/img/testimonial-img-2.png')}}" alt="" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="{{url_for('static', filename='assets/img/testimonial-img-1.png')}}" alt="" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="{{url_for('static', filename='assets/img/testimonial-img-2.png')}}" alt="" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><img src="{{url_for('static', filename='assets/img/testimonial-img-1.png')}}" alt="" /></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--testimonial-container End Here -->
+
+    <!--partner-container Start Here -->
+    <div class="our-partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 animate-effect">
+                    <h2><span>OUR <i></i></span> PARTNERS</h2>
+                    <ul class="clearfix">
+                        <li class="zoom">
+                            <a href="#"><img src="{{url_for('static', filename='assets/img/partner-1.png')}}" alt="" /></a>
+                        </li>
+                        <li class="zoom">
+                            <a href="#"><img src="{{url_for('static', filename='assets/img/partner-2.png')}}" alt="" /></a>
+                        </li>
+                        <li class="zoom">
+                            <a href="#"><img src="{{url_for('static', filename='assets/img/partner-3.png')}}" alt="" /></a>
+                        </li>
+                        <li class="zoom">
+                            <a href="#"><img src="{{url_for('static', filename='assets/img/partner-4.png')}}" alt="" /></a>
+                        </li>
+                        <li class="zoom">
+                            <a href="#"><img src="{{url_for('static', filename='assets/img/partner-5.png')}}" alt="" /></a>
+                        </li>
+                        <li class="zoom">
+                            <a href="#"><img src="{{url_for('static', filename='assets/img/partner-6.png')}}" alt="" /></a>
+                        </li>
+                        <li class="zoom">
+                            <a href="#"><img src="{{url_for('static', filename='assets/img/partner-7.png')}}" alt="" /></a>
+                        </li>
+                        <li class="zoom">
+                            <a href="#"><img src="{{url_for('static', filename='assets/img/partner-8.png')}}" alt="" /></a>
+                        </li>
+                        <li class="zoom">
+                            <a href="#"><img src="{{url_for('static', filename='assets/img/partner-9.png')}}" alt="" /></a>
+                        </li>
+                        <li class="zoom">
+                            <a href="#"><img src="{{url_for('static', filename='assets/img/partner-10.png')}}" alt="" /></a>
+                        </li>
+                        <li class="zoom">
+                            <a href="#"><img src="{{url_for('static', filename='assets/img/partner-11.png')}}" alt="" /></a>
+                        </li>
+                        <li class="zoom">
+                            <a href="#"><img src="{{url_for('static', filename='assets/img/partner-1.png')}}" alt="" /></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--partner-container End Here -->
+
+    <!--quote-container Start Here -->
+    <div class="quote-container">
+        <div class="right-banner"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="quote-box animate-effect">
+                        <h4>PROVIDING PERSONALIZED AND HIGH QUALITY SERVICES. <i></i></h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit Quisque nec erat erat.
+                        </p>
+                        <a href="#">GET A QUOTE</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--quote-container End Here -->
+
+</div>
+<!--content Section End Here -->
+{% endblock %}
+{% block footer %}
+{{ super() }} 
+{% endblock %}
